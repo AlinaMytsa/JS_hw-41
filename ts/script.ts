@@ -14,10 +14,10 @@ obj.name = 'Pete';
 delete obj.name;
 
 // task3
-type customType = Array<number> | Array<string>;
+type customType = Array<number>;
 let arr:customType = [1, 2, 3, -1, -2, -3];
 
-function func (item:customType):boolean {
+function func (item:customType): boolean{
 for (let i = 0; i < arr.length; i += 1){
 
   if (i > 0){
